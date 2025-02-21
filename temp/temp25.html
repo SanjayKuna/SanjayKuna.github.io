@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src = "ball.png" width ="100px" id = "ball" />
+    <script>
+        ball.style.position = "absolute";
+        let top =0;
+        function ballFall(){
+            top++
+            ball.style.top = top + px;
+            setTimeout(ballFall , 1000);
+        }
+    </script>
+    
+</body>
+</html>
